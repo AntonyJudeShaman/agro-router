@@ -84,9 +84,9 @@ export default function TabLayout() {
           <Tabs.Screen
             name="tabTwo"
             options={{
-              title: "Weather",
+              title: "Market",
               tabBarIcon: ({ color }) => (
-                <Entypo name="cloud" size={26} color={color} />
+                <Entypo name="shop" size={24} color={color} />
               ),
               headerTitle: "AgroVoiceAI",
               headerTitleAlign: "center",
@@ -128,9 +128,9 @@ export default function TabLayout() {
           <Tabs.Screen
             name="tabThree"
             options={{
-              title: "Market",
+              title: "Weather",
               tabBarIcon: ({ color }) => (
-                <Entypo name="shop" size={24} color={color} />
+                <Entypo name="cloud" size={26} color={color} />
               ),
               headerTitle: "AgroVoiceAI",
               headerTitleAlign: "center",

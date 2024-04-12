@@ -121,8 +121,8 @@ const MarketHome2: React.FC<MarketHomeProps> = ({ user }) => {
         <View className={"text-6xl text-center justify-center items-center"}>
           {locale === "en" ? (
             <Text
-              className="text-3xl text-green-500 py-3"
-              style={fonts.poppinsSemiBold}
+              className="text-4xl text-center text-green-600 py-3"
+              style={fonts.poppinsBold}
             >
               Today's Price in {district}
             </Text>

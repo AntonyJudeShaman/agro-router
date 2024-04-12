@@ -54,15 +54,13 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({
         const storedToken = await AsyncStorage.getItem("token7");
         if (!storedToken) return;
 
-        const response = await fetch(
-          "https://agrovoiceai.vercel.app/api/user/name"
-        );
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
+        // const response = await fetch("https://agrovoiceai.vercel.app/");
+        // if (!response.ok) {
+        //   throw new Error("Network response was not ok");
+        // }
 
-        const { id } = await response.json();
-        console.log("id", id);
+        // const { id } = await response.json();
+        // console.log("id", id);
         setSession({
           userId: "1",
           token: storedToken,
