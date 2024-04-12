@@ -5,7 +5,7 @@ import { Text, View } from "@/components/Themed";
 import { fonts } from "@/constants/fonts";
 import { main } from "@/constants/container";
 
-export default function TabTwoScreen() {
+export default function TabFour() {
   return (
     <View style={main.container}>
       <Text style={fonts.poppinsBold} className="text-4xl">
